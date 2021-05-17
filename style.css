@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgb(246, 187, 213) 10%,
+    rgb(5, 16, 29) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 65%;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 9px;
+}
+h1 {
+  text-align: center;
+  font-size: 66px;
+  font-family: "Days One", sans-serif;
+  padding: 100px 0;
+}
+.counting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+h3 {
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-family: KoHo, sans-serif;
+  font-size: 27px;
+  text-align: center;
+  font-weight: 600;
+}
+.count {
+  padding: 0 50px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100vw;
+  }
+}
